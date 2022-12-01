@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.line {
+    background: rgb(59, 57, 53);
+    width: 1px;
+    height: 200px;
+}
+
+.socialIcon {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.iconBtn {
+    padding: .3em 0;
+}

@@ -1,0 +1,18 @@
+.container {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.navTitle {
+    padding: 0 2.5em;
+    font-size: 17px;
+}
+
+.link {
+    color: #3B3935;
+    text-decoration: none;
+}

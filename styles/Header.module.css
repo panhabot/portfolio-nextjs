@@ -1,0 +1,54 @@
+.header {
+    /* padding: 1em; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .header {
+        width: 100vh;
+        display: inline-block;
+        align-items: unset;
+        margin: 0;
+    }
+    .contactWrapper {
+        visibility: hidden;
+    }
+    .plane{
+        visibility: hidden;
+    }
+}
+
+
+
+.contactWrapper {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contact {
+    word-spacing: 0%;
+    padding: 0;
+    margin: 0;
+}
+
+.contactText {
+font-size: 12px;
+margin: 0;
+font-weight: 900;
+padding-left: 1em;
+
+
+}
+
+.logoTitle {
+    font-size: 79px;
+    font-weight: 900;
+    margin: 0;
+}
