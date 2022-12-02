@@ -5,6 +5,7 @@ import NavBar from "../components/navbar";
 import HomeSocial from "../components/Home/social";
 import Image from "next/image";
 import About from "./about";
+import Project from "./projects";
 const Home:NextPage = () => {
   return (
   <>
@@ -40,6 +41,7 @@ const Home:NextPage = () => {
 
   </div>
   <About></About>
+  <Project/>
 
   </>
   )

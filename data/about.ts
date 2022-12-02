@@ -2,7 +2,7 @@
 
 
 const AboutData = {
-    description: 'Howdy Everyone, I am Kong Panhabot. I am a graduate bachelor of software engineering class of 2022. Currently, a software developer at Japan Company.',
+    description: 'Howdy Everyone, I am Kong Panhabot. I am a graduate bachelor of software engineering class of 2022. Currently, a software developer at Japanese Company.',
     skillset: [{
         alt: 'vue',
         imageUrl: 'assets/skill/Logos/vuejs-plain.png'

@@ -12,8 +12,8 @@ export default function HomeSocial () {
             {
                 social.map((data) => {
                     return (
-                    <a className={styles.iconBtn}>
-                    <Image src={`/${data.imagePaths}`}  key={data.alt} alt={data.alt} width={20} height={20} />
+                    <a className={styles.iconBtn} key={data.alt}>
+                    <Image src={`/${data.imagePaths}`}  key={data.alt} alt={data.alt}  width={20} height={20} />
                     </a>)
                 })
             }

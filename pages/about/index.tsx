@@ -25,7 +25,7 @@ export default function About () {
                         {
                             data.skillset.map((item) => {
                                 return (
-                                    <Image src={`/${item.imageUrl}`} alt={item.alt} width={46} height={46} className={styles.skillLogo} />
+                                    <Image key={item.alt} src={`/${item.imageUrl}`} alt={item.alt} width={46} height={46} className={styles.skillLogo} />
                                 )
                             })
                         }
